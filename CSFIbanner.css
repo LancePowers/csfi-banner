@@ -1,0 +1,50 @@
+@media (max-width: 480px) {
+  .banner {
+    padding: 0px 25px;
+  }
+  .banner img {
+    max-width: 100%;
+    padding: 10%;
+  }
+  .banner .text{
+    padding-left: 0px;
+  }
+}
+@media (max-width: 770px) {
+  .banner {
+    padding: 0px 25px;
+  }
+  .banner .text{
+    padding-left: 25px;
+  }
+}
+@media (min-width: 1170px) {
+  .banner {
+    padding: 0px 125px;
+  }
+  .banner .text{
+    padding-left: 100px;
+  }
+}
+.banner {
+  background-color: #00235d;
+  margin: 0px;
+  width: 100%;
+  color: white;
+  min-height: 525px;
+}
+.banner .text{
+  padding-top: 25px;
+  margin-right: 50px;
+}
+.banner h1 {
+  font-size: 48px;
+  font-family: Oswald, sans-serif;
+}
+.banner h2 {
+  font-size: 1.5em;
+  font-family: arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  line-height: 1.5em;
+}
